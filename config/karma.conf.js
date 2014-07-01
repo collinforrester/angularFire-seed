@@ -21,10 +21,7 @@ module.exports = function(config){
       browsers : ['Chrome'],
 
       plugins : [
-         'karma-junit-reporter',
-         'karma-chrome-launcher',
-         'karma-firefox-launcher',
-         'karma-jasmine'
+         'karma-*'
       ],
 
       junitReporter : {
@@ -32,4 +29,5 @@ module.exports = function(config){
          suite: 'unit'
       }
 
-   })}
+   });
+};

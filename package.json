@@ -1,0 +1,39 @@
+{
+  "name": "angularFire-seed",
+  "version": "0.0.1",
+  "description": "Angular Fire seed starter project",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collinforrester/angularFire-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "angular",
+    "fire"
+  ],
+  "author": "Collin Forrester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collinforrester/angularFire-seed/issues"
+  },
+  "homepage": "https://github.com/collinforrester/angularFire-seed",
+  "devDependencies": {
+    "time-grunt": "^0.3.2",
+    "grunt": "^0.4.5",
+    "karma": "^0.12.16",
+    "grunt-karma": "^0.8.3",
+    "matchdep": "^0.3.0",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
